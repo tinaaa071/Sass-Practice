@@ -336,8 +336,8 @@ $escaped-characters: (
 
 $enable-caret:                true !default;
 $enable-rounded:              true !default;
-$enable-shadows:              false !default;
-$enable-gradients:            false !default;
+$enable-shadows:              true // false !default; custom
+$enable-gradients:            true // false !default; custom
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
 $enable-smooth-scroll:        true !default;
@@ -1634,3 +1634,4 @@ $kbd-bg:                            var(--#{$prefix}body-color) !default;
 $nested-kbd-font-weight:            null !default; // Deprecated in v5.2.0, removing in v6
 
 $pre-color:                         null !default;
+
