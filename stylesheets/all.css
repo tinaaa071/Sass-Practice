@@ -23,7 +23,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #6f42c1;
+  --bs-primary: #dc3545;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -31,7 +31,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 111, 66, 193;
+  --bs-primary-rgb: 220, 53, 69;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2934,19 +2934,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #6f42c1;
-  --bs-btn-border-color: #6f42c1;
+  --bs-btn-bg: #dc3545;
+  --bs-btn-border-color: #dc3545;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #5e38a4;
-  --bs-btn-hover-border-color: #59359a;
-  --bs-btn-focus-shadow-rgb: 133, 94, 202;
+  --bs-btn-hover-bg: #bb2d3b;
+  --bs-btn-hover-border-color: #b02a37;
+  --bs-btn-focus-shadow-rgb: 225, 83, 97;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #59359a;
-  --bs-btn-active-border-color: #533291;
+  --bs-btn-active-bg: #b02a37;
+  --bs-btn-active-border-color: #a52834;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #6f42c1;
-  --bs-btn-disabled-border-color: #6f42c1;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
 }
 
 .btn-secondary {
@@ -3069,19 +3069,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #6f42c1;
-  --bs-btn-border-color: #6f42c1;
+  --bs-btn-color: #dc3545;
+  --bs-btn-border-color: #dc3545;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #6f42c1;
-  --bs-btn-hover-border-color: #6f42c1;
-  --bs-btn-focus-shadow-rgb: 111, 66, 193;
+  --bs-btn-hover-bg: #dc3545;
+  --bs-btn-hover-border-color: #dc3545;
+  --bs-btn-focus-shadow-rgb: 220, 53, 69;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #6f42c1;
-  --bs-btn-active-border-color: #6f42c1;
+  --bs-btn-active-bg: #dc3545;
+  --bs-btn-active-border-color: #dc3545;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #6f42c1;
+  --bs-btn-disabled-color: #dc3545;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #6f42c1;
+  --bs-btn-disabled-border-color: #dc3545;
   --bs-gradient: none;
 }
 
@@ -3248,7 +3248,7 @@ textarea.form-control-lg {
 
 .text-bg-primary {
   color: #fff !important;
-  background-color: RGBA(111, 66, 193, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-secondary {
@@ -3287,10 +3287,10 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: #6f42c1 !important;
+  color: #dc3545 !important;
 }
 .link-primary:hover, .link-primary:focus {
-  color: #59359a !important;
+  color: #b02a37 !important;
 }
 
 .link-secondary {
@@ -5018,6 +5018,26 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+.bg-s-cover {
+  background-size: cover !important;
+}
+
+.bg-s-contain {
+  background-size: contain !important;
+}
+
+.bg-s-50 {
+  background-size: 50% !important;
+}
+
+.bg-s-75 {
+  background-size: 75% !important;
+}
+
+.bg-p-center {
+  background-position: center center !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -5610,6 +5630,9 @@ textarea.form-control-lg {
   }
   .text-sm-center {
     text-align: center !important;
+  }
+  .bg-p-sm-center {
+    background-position: center center !important;
   }
 }
 @media (min-width: 768px) {
@@ -6205,6 +6228,9 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
+  .bg-p-md-center {
+    background-position: center center !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -6798,6 +6824,9 @@ textarea.form-control-lg {
   }
   .text-lg-center {
     text-align: center !important;
+  }
+  .bg-p-lg-center {
+    background-position: center center !important;
   }
 }
 @media (min-width: 1200px) {
@@ -7393,6 +7422,9 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
+  .bg-p-xl-center {
+    background-position: center center !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -7986,6 +8018,9 @@ textarea.form-control-lg {
   }
   .text-xxl-center {
     text-align: center !important;
+  }
+  .bg-p-xxl-center {
+    background-position: center center !important;
   }
 }
 @media (min-width: 1200px) {

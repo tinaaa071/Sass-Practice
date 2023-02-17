@@ -310,7 +310,7 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $purple,
+  "primary":    $red, // custom
   "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
@@ -336,8 +336,8 @@ $escaped-characters: (
 
 $enable-caret:                true !default;
 $enable-rounded:              true !default;
-$enable-shadows:              true // false !default; custom
-$enable-gradients:            true // false !default; custom
+$enable-shadows:              false !default;
+$enable-gradients:            false !default;
 $enable-transitions:          true !default;
 $enable-reduced-motion:       true !default;
 $enable-smooth-scroll:        true !default;

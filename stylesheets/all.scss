@@ -1,16 +1,12 @@
-// 載入 bootstrap 的 functions
+
 @import "../node_modules/bootstrap/scss/functions";
-// 載入複製的 variable
 @import "./helpers/variables";
-// 載入複製的 utilities
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
 @import "./helpers/utilities";
 
 
 
-// 載入 bootstrap
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/utilities";
 
 // Layout & components
 @import "../node_modules/bootstrap/scss/root";
