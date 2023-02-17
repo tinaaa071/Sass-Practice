@@ -654,12 +654,12 @@ $utilities: map-merge(
     ),
     "background-position":(
       property:background-position,
-      responsive:true,
+      responsive:true, // 響應式設定
       class:bg-p,
       values:(
         center:center center,
       )
-    ),
+    )
   ),
   $utilities
 );
